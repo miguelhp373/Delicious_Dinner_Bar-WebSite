@@ -1,0 +1,14 @@
+:root{
+    --orange-principal:#Eb2F06;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.nav-bar-top-fixed{
+    width: 100%;
+    height: 90px;
+    background-color: var(--orange-principal);
+}
