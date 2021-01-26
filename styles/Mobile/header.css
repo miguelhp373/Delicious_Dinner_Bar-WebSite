@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@300;400;600&display=swap');
+
+@media (min-width:360px) and (max-width:1000px){
+
+
+.nav-bar-transparent{
+    display: flex;
+   position: fixed;
+   z-index: 9999;
+}
+
+.logo-brand-top{
+    margin: 10px 0px 0px 5rem;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.logo-brand-top>h1{
+    font-family: 'Oswald', sans-serif;
+    color: #f39c12;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul>a>li{
+    margin: 35px 0px 0px 20px;
+    color:#FFFF;
+    font-family: 'Lato', sans-serif;
+}
+ul>a{
+    text-decoration: none;
+}
+
+.links-menu:hover{
+    cursor: pointer;
+    color: #95a5a6;
+}
+
+#background-home>img{
+    height: auto;
+    width: 100%;
+    
+}
+
+.title-home{
+    left: 0;
+    width: 50%;
+    margin: -38% 0px 0px 195px;
+    position: absolute;
+}
+
+.title-home>h1, .title-home>h2{
+    z-index: 999;
+    color: #FFFF;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.title-home>button{
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    background-color: #dfe6e9;
+    transition: background-color 0.5s;
+}
+
+.title-home>button:focus{
+    outline: 0;
+}
+
+
+
+.title-home>button:hover{
+    background-color: #f39c12 ;
+    color:#FFFF;
+}
+
+  
+.hamburger-responsive-menu{
+    background-color: gray;
+    height: 50px;
+}
+
+/*side bar*/
+
+#check {
+	display: none;
+}
+
+#check:checked ~ .left-bar {
+	-webkit-transform: translate(300px);
+	   -moz-transform: translate(300px);
+	    -ms-transform: translate(300px);
+	     -o-transform: translate(300px);
+	        transform: translate(300px);
+}
+
+.button-icon {
+	font-size: 30px;
+    position: fixed;
+    margin-left: 10px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.left-bar {
+	width: 250px;
+	height: 50%;
+	position: fixed;
+	background-color:gray;
+	padding-top: 50px;
+	left: -300px;
+	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;
+}
+
+.text1, .text2, .text3{
+    margin-left: 5px;
+    color: black;
+}
+
+}
